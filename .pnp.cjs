@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.28"],\
             ["@types/react-dom", "npm:18.0.11"],\
             ["@types/styled-components", "npm:5.1.26"],\
+            ["@use-gesture/react", "virtual:792adae1674c1716a0d7e67faa33c4fd51a92f90f83c423bd0c7b89de91286b18c79d5021647a72dfae10450a559bc81c09a8590d07897a7e986c73ac29a5384#npm:10.2.24"],\
             ["@vitejs/plugin-react", "virtual:792adae1674c1716a0d7e67faa33c4fd51a92f90f83c423bd0c7b89de91286b18c79d5021647a72dfae10450a559bc81c09a8590d07897a7e986c73ac29a5384#npm:3.1.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:792adae1674c1716a0d7e67faa33c4fd51a92f90f83c423bd0c7b89de91286b18c79d5021647a72dfae10450a559bc81c09a8590d07897a7e986c73ac29a5384#npm:18.2.0"],\
@@ -912,6 +913,38 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@use-gesture/core", [\
+        ["npm:10.2.24", {\
+          "packageLocation": "./.yarn/cache/@use-gesture-core-npm-10.2.24-3ece61ac29-92c2cedde0.zip/node_modules/@use-gesture/core/",\
+          "packageDependencies": [\
+            ["@use-gesture/core", "npm:10.2.24"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@use-gesture/react", [\
+        ["npm:10.2.24", {\
+          "packageLocation": "./.yarn/cache/@use-gesture-react-npm-10.2.24-274fed4d8e-f8e651aa2e.zip/node_modules/@use-gesture/react/",\
+          "packageDependencies": [\
+            ["@use-gesture/react", "npm:10.2.24"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:792adae1674c1716a0d7e67faa33c4fd51a92f90f83c423bd0c7b89de91286b18c79d5021647a72dfae10450a559bc81c09a8590d07897a7e986c73ac29a5384#npm:10.2.24", {\
+          "packageLocation": "./.yarn/__virtual__/@use-gesture-react-virtual-819f5245c4/0/cache/@use-gesture-react-npm-10.2.24-274fed4d8e-f8e651aa2e.zip/node_modules/@use-gesture/react/",\
+          "packageDependencies": [\
+            ["@use-gesture/react", "virtual:792adae1674c1716a0d7e67faa33c4fd51a92f90f83c423bd0c7b89de91286b18c79d5021647a72dfae10450a559bc81c09a8590d07897a7e986c73ac29a5384#npm:10.2.24"],\
+            ["@types/react", "npm:18.0.28"],\
+            ["@use-gesture/core", "npm:10.2.24"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@vitejs/plugin-react", [\
         ["npm:3.1.0", {\
           "packageLocation": "./.yarn/cache/@vitejs-plugin-react-npm-3.1.0-98ff1f6673-450fac79e6.zip/node_modules/@vitejs/plugin-react/",\
@@ -1030,6 +1063,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.28"],\
             ["@types/react-dom", "npm:18.0.11"],\
             ["@types/styled-components", "npm:5.1.26"],\
+            ["@use-gesture/react", "virtual:792adae1674c1716a0d7e67faa33c4fd51a92f90f83c423bd0c7b89de91286b18c79d5021647a72dfae10450a559bc81c09a8590d07897a7e986c73ac29a5384#npm:10.2.24"],\
             ["@vitejs/plugin-react", "virtual:792adae1674c1716a0d7e67faa33c4fd51a92f90f83c423bd0c7b89de91286b18c79d5021647a72dfae10450a559bc81c09a8590d07897a7e986c73ac29a5384#npm:3.1.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:792adae1674c1716a0d7e67faa33c4fd51a92f90f83c423bd0c7b89de91286b18c79d5021647a72dfae10450a559bc81c09a8590d07897a7e986c73ac29a5384#npm:18.2.0"],\

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Section = styled.section<{ bg?: string }>`
+const Section = styled.section<{ bg?: string; sytle?: string }>`
   scroll-snap-align: start;
   margin: 0;
   display: flex;
@@ -9,7 +9,10 @@ const Section = styled.section<{ bg?: string }>`
   height: 100vh;
   width: auto;
   flex-grow: 1;
-  background-color: ${(props) => props?.bg || "salmon"};
+  box-sizing: border-box;
+  padding: 2em 0;
+  background-color: ${(props) => props?.bg || "transparant"};
+  position: relative;
 `;
 
 export default Section;

@@ -4,6 +4,7 @@ const Main = styled.main`
   width: auto;
   box-sizing: border-box;
   max-height: 100vh;
+  gap: 2em;
 
   overflow-y: scroll;
   scroll-snap-type: mandatory;
